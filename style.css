@@ -106,7 +106,6 @@ a {
 
 .box {
     max-width: 150px;
-    text-align: center;
 }
 
 .row-image {
@@ -118,4 +117,9 @@ a {
     justify-content: center;
     align-items: center;
 
+}
+
+.row-text {
+    margin-top: 8px;
+    text-align: center;
 }
