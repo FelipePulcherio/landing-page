@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 
-.header {
+.header, .footer {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
@@ -35,3 +35,4 @@ a {
     text-decoration: none;
     color: #F9FAF8;
 }
+
