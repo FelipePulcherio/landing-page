@@ -101,7 +101,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 45px;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 .box {
@@ -127,16 +127,23 @@ a {
 .quote {
     background-color: #E5E7EB;
     color: #1F2937;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
+    padding: 100px 250px 80px 250px;
 }
 
-.quote-text {
-    width: 750px;
-    font-size: 36px;
-    font-style: italic;
+.quote-text { 
+    font-family: 'Times New Roman';
+    font-size: 30px;
     font-weight: 100;
+    font-style: italic;
     text-align: justify;
     display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.quote-sign {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: end;
+    padding-top: 5px;
 }
