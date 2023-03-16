@@ -9,3 +9,16 @@ body {
   min-height: 100vh;
   margin: 0;
 }
+
+.header {
+    width: 100%;
+    background-color: #1F2937;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
