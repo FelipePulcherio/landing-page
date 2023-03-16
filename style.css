@@ -88,19 +88,30 @@ a {
     align-items: center;
 }
 
-.row-pictures {
-    display: flex;
-}
-
 .row-title {
     color: #1F2937;
     font-size: 36px;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 35px 0px;
+}
+
+.row-pictures {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-bottom: 60px;
+}
+
+.box {
+    max-width: 150px;
+    text-align: center;
 }
 
 .row-image {
-    width: 100px;
-    height: 100px;
+    width: 142px;
+    height: 142px;
     border: solid #3882F6 4px;
     border-radius: 12px;
     display: flex;
