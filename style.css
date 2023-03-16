@@ -59,7 +59,7 @@ a {
 .hero-title {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bold;
 }
 
 .hero-text {
@@ -86,4 +86,25 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.row-pictures {
+    display: flex;
+}
+
+.row-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.row-image {
+    width: 100px;
+    height: 100px;
+    border: solid #3882F6 4px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
