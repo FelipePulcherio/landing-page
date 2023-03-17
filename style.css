@@ -147,3 +147,16 @@ a {
     text-align: end;
     padding-top: 5px;
 }
+
+.call {
+
+    padding: 80px 180px 80px 180px;
+}
+
+.call-first, .call-second {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
